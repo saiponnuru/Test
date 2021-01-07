@@ -9,7 +9,7 @@ public class Navigation {
 
 	public static void main(String[] args) throws Throwable 
 	{
-		WebDriver driver = new ChromeDriver();
+		WebDriver driver1 = new ChromeDriver();
 		driver.navigate().to("http://orangehrm.qedgetech.com/");
 		driver.manage().window().maximize();
 		Thread.sleep(5000);
